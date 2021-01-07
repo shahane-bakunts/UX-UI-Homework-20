@@ -1,0 +1,15 @@
+/* nav.html */
+.my-logo{
+    height:50px;
+}
+.navbar{
+    padding:20px 200px 50px 200px;
+}
+
+  .navbar-nav a{
+    color:#271458 !important;
+    /* font-size: 20px; */
+  }
+  .navbar-nav a:hover{
+    color: #25cdc8!important;
+  }
