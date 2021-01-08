@@ -1,0 +1,50 @@
+.about {
+padding: 50px 200px !important;
+}
+
+.title {
+background-color: #271458;
+height: 200px;
+width: 100%;
+color: white;
+}
+.title h1,
+.title p {
+color: white;
+text-align: center;
+padding-top: 30px;
+}
+
+.ui-element img {
+height: 118.8px;
+margin: -30px;
+}
+.skill-icon {
+height: 100px !important;
+margin-top: 30px !important;
+}
+.hobby ul {
+display: flex;
+justify-content: space-between;
+}
+.hobby li {
+overflow: hidden;
+text-decoration: none;
+display: inline-block;
+}
+.hobby {
+padding-left: 10%;
+}
+
+@media only screen and (max-width: 900px) {
+.about {
+    padding: 50px 50px !important;
+    align-items: center;
+}
+.work.row div {
+    padding-top: 50px;
+}
+.hobby {
+    padding-left: 0%;
+}
+}

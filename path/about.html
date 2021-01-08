@@ -3,12 +3,18 @@
     <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/index.css" /> 
     <link rel="stylesheet" href="../css/nav.css" /> 
+    <link rel="stylesheet" href="../css/about.css" /> 
     <link rel="stylesheet" href="../css/footer.css" /> 
-   
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-
     <title>Shahane</title>
     <script
   src="http://code.jquery.com/jquery-3.5.1.min.js"
@@ -24,82 +30,84 @@
         </script> 
 
 
-         <!-- footer.html -->
-         <script src="jquery.js"></script> 
-         <script> 
-         $(function(){
-           $("#footer-nav").load("footer.html"); 
-         });
-         </script> 
+          <!-- footer.html -->
+          <script src="jquery.js"></script> 
+          <script> 
+          $(function(){
+            $("#footer-nav").load("footer.html"); 
+          });
+          </script> 
 </head>
 <body>
-
-
-
 <div id="navigation"></div>
-
 <div class="title">
     <h1>About</h1>
     <p>Experience is the best teacher</p>
   </div> 
-<section class="mySkills" id="about-me">
-<div class="flexContainer">
-    <div>
+  <div class="container-fluid about">
+    <div class="row">
+    <div class="col-lg-4 col-md-12 col-sm-12 skills ">
         <img src="../images/undraw_researching_22gp.svg" class="skill-icon" alt="User Research icon"></a>
         <h3>User Research </h3>
         <p>Storyboarding, Decision Flow Diagrams,</p> 
         <p>User Need Identification, User Experience Interviewing, Persona Creation,</p> 
         <p> Insight Synthesis </p>
     </div>
-    <div>
+    <div class="col-lg-4 col-md-12 col-sm-12 ">
         <img src="../images/undraw_site_content_ihgn.svg" class="skill-icon" alt="User Research icon"></a>
         <h3>User Interface design </h3>
         <p> Atomic Design, UI Grids and Composition, </p> 
         <p>Color Theory, Heuristic Evaluation,  
         <p>Typography, Interaction Design and Iconography </p>
     </div>
-    <div>
-      <img src="../images/undraw_voice_interface_eckp.svg" class="skill-icon"  alt="User Research icon"></a>
+    <div class="col-lg-4 col-md-12 col-sm-12 ">
+        <img src="../images/undraw_voice_interface_eckp.svg" class="skill-icon"  alt="User Research icon"></a>
         <h3>Web development </h3>
         <p>Git, HTML/Css, Bootstrap, VS Code, Java Script, jQuery</p>
     </div>
-  </div>
-
-  <div class="aboutContent">
-    <div>
-      Shahane is a curious, patient, and persistent person. Throughout
-      her career, she had to be a self-learner by watching online
-      classes and exploring tutorials in a non-native language, because
-      the new technologies were just getting adapted in her country. As
-      an example, Shahane went from knowing nothing to be a professional
-      magazine designer in her company using one of the best tools in
-      the industry. And also she learned to create websites using
-      WordPress and use the skill to freelance in Upwork after moving to
-      the USA.
-  </div>
- 
-  <div class="hobby">
-    <ul>
-      <li>food carving</li>
-      <li>cooking</li>
-      <li>photography</li>
-    </ul>
-    
-    <ul>
-      <li>nail design</li>
-      <li>yoga</li>
-      <li>ocean</li>
-      <li>seafood</li>
-    
-    </ul>
-    <ul>
-      <li>usefull</li>
-      <li>beautiful</li>
-      <li>here and now</li>
-    </ul>
-  </div>
+    </div>
 </div>
-</section>
+<div class="container-fluid ui-element about">
+<div class="row">
+    <img src="../images/ui-flower.svg">
+    <img src="../images/Vector.svg">
+</div>
+</div>
+<div class="container-fluid about">
+    <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-12 ">
+        Shahane is a curious, patient, and persistent person. Throughout
+        her career, she had to be a self-learner by watching online
+        classes and exploring tutorials in a non-native language, because
+        the new technologies were just getting adapted in her country. As
+        an example, Shahane went from knowing nothing to be a professional
+        magazine designer in her company using one of the best tools in
+        the industry. And also she learned to create websites using
+        WordPress and use the skill to freelance in Upwork after moving to
+        the USA.
+    </div>
+    < class="col-lg-6 col-md-6 col-sm-12 ">
+        <div class="hobby">
+            <ul>
+              <li>food carving</li>
+              <li>cooking</li>
+              <li>photography</li>
+            </ul>
+            <ul>
+              <li>nail design</li>
+              <li>yoga</li>
+              <li>ocean</li>
+              <li>seafood</li>
+            </ul>
+            <ul>
+              <li>usefull</li>
+              <li>beautiful</li>
+              <li>here and now</li>
+            </ul>
+          </div>
+    </div>
+    </div>
+</div>
 <div id="footer-nav"></div>
 </body>
 </html>
