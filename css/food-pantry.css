@@ -1,0 +1,25 @@
+.fp-title{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.fp-title h1{
+font-size: 48px;
+color: #639539;
+font-family:'Dancing Script', cursive;
+}
+.fp-hero img{
+width: 100%;
+    }
+.side-menu{
+    background: #11200D;
+    color:white;
+    padding-top: 10%;
+    font-size: 24px;
+    text-transform: uppercase; 
+}
+.side-menu-list ul{
+    list-style: none;
+}
+.footer{
+    background-color:#11200D!important;
+  }
