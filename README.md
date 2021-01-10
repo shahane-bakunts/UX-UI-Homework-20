@@ -1,2 +1,2 @@
 # UX-UI-Homework-20
-Coding Case studies with Bootstrap
+Coding Portfolio and Case studies with Bootstrap
