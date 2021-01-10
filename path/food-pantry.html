@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  
 
     <title>Shahane</title>
     <script
@@ -38,12 +40,21 @@
           });
           </script> 
 </head>
-<body>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="10">
 
 
 
-<div id="navigation"></div>
+<!-- <div id="navigation" ></div> -->
+<div class="container-fluid position-fixed fp-fixed">
+  <div class="row white1 shadow1 p-3 mb-5 ">
+  <div class="col-lg-1 col-md-1 col-sm-1"><i class="fas fa-chevron-circle-left"></i></div>
+  <div class=" col-lg-11 col-md-11 col-sm-12 fp-title">
+    <h1>The Food Pantry</h1>
+    <!-- <p>Non-profit website redesign</p> -->
+  </div>
 
+      </div>
+    </div>
 
 <div class="container-fluid">
   <div class="row case-study">
@@ -60,26 +71,32 @@
       </ul>
     </div> -->
 
-    <div class="col-lg-9 col-md-9 col-sm-12 fp-hero">
-      <div class="fp-title">
-        <h1>The Food Pantry</h1>
-        <p>Non-profit website redesign</p>
-      </div>
-      <img src="../images/food-pantry-hero.png"/>
-      <p>The non-profit website redesign is focused on The Food Pantry, a San Francisco food bank which has been operating for over 20 years, feeding over 500 families a week through the years and even during the unique challenges Covid-19 presented.</p>
-          </div>
+    
+          <div class="col-lg-9 col-md-9 col-sm-12 fp-hero ">
+          
+            <img src="../images/food-pantry-hero.png"/>
+            <p>The non-profit website redesign is focused on The Food Pantry, a San Francisco food bank which has been operating for over 20 years, feeding over 500 families a week through the years and even during the unique challenges Covid-19 presented.</p>
+                </div>
+          
        
-  <div class="col-lg-3 col-md-3 col-sm-12  position-relative  d-none d-sm-block">
+  <div class="col-lg-3 col-md-3 col-sm-12  position-relative  d-none d-sm-block" id="myScrollspy">
 
     <div class="side-menu-list position-fixed side-menu">
-        <ul>
-          <li>How it startted</li>
+        <ul class="nav-stacked">
+          <li><a href="#section1">How it startted</a></li>
+          <li><a href="#section2">Research</a></li>
+          <li><a href="#section3">Definition</a></li>
+          <li><a href="#section4">Ideation</a></li>
+          <li><a href="#section5">Prototyping</a></li> 
+          <li><a href="#section6">Testing</a></li> 
+          <li><a href="#section7">Conclusion</a></li>
+          <!-- <li>How it startted</li>
           <li>Research</li>
           <li>Definition</li>
           <li>Ideation</li>
           <li>Prototyping</li>
           <li>Testing</li>
-          <li>Conclusion</li>
+          <li>Conclusion</li> -->
         </ul>
     </div>
 
@@ -93,7 +110,7 @@
 
 <div class="container-fluid">
     <div class="row case-study">
-    <div class="col-lg-4 col-md-4 col-sm-12 ">
+    <div class="col-lg-4 col-md-4 col-sm-12 " id="section1">
       How it started
     </div>
     <div class="col-lg-5 col-md-5 col-sm-12 ">
@@ -108,7 +125,7 @@
   </div>
     </div> -->
   <div class="row case-study">
-  <div class="col-lg-4 col-md-4 col-sm-12 ">
+  <div class="col-lg-4 col-md-4 col-sm-12" id="section2">
     Research
   </div>
   <div class="col-lg-5 col-md-5 col-sm-12 ">
@@ -122,16 +139,19 @@
 </div>
   </div> -->
   <div class="row case-study">
-  <div class="col-lg-4 col-md-4 col-sm-12 ">
+  <div class="col-lg-4 col-md-4 col-sm-12" id="section3">
     Definition
   </div>
   <div class="col-lg-5 col-md-5 col-sm-12 ">
     The current Food Pantry page is constructed more like a blog than a contemporary webpage. When tested users complained about multiple issues that include, but are not limited to:
-    .No clear donate button
-    .The menu bar being too small
-    .The mission statement not being visible
-    .Navigation issues
-    .Information pop-up screen on every page that is infuriating
+    <ul>
+      <li>No clear donate button</li>
+      <li>The menu bar being too small</li>
+      <li>The mission statement not being visible</li>
+      <li>Navigation issues</li>
+      <li>Information pop-up screen on every page that is infuriating</li>
+    </ul>
+   
   </div>
   </div>
   <div class="row case-study">
@@ -141,7 +161,7 @@
   </div>
 
   <div class="row case-study">
-  <div class="col-lg-4 col-md-4 col-sm-12 ">
+  <div class="col-lg-4 col-md-4 col-sm-12 " id="section4">
    Ideation
   </div>
   <div class="col-lg-5 col-md-5 col-sm-12 ">
@@ -157,7 +177,7 @@
   </div>
 
   <div class="row">
-  <div class="col-lg-4 col-md-4 col-sm-12 ">
+  <div class="col-lg-4 col-md-4 col-sm-12 " id="section5">
     Prototyping
   </div>
   <div class="col-lg-5 col-md-5 col-sm-12 ">
@@ -171,11 +191,11 @@
 </div>
   </div> -->
   <div class="row">
-  <div class="col-lg-4 col-md-4 col-sm-12 ">
+  <div class="col-lg-4 col-md-4 col-sm-12 " id="section6">
    Testing
   </div>
   <div class="col-lg-5 col-md-5 col-sm-12 ">
-    When testing our redesigned website the feedback was generally positive with users saying it was easy to navigate and the dedicated buttons were easier to find that a tab section. Some negative feedback was given like missing buttons which were fixed during the next iterations. I’ll hand it off to Ryan for our conclusion
+    When testing our redesigned website the feedback was generally positive with users saying it was easy to navigate and the dedicated buttons were easier to find that a tab section. Some negative feedback was given like missing buttons which were fixed during the next iterations.
   </div>
   </div>
   <div class="row case-study">
@@ -184,7 +204,7 @@
 </div>
   </div>
   <div class="row case-study">
-  <div class="col-lg-4 col-md-4 col-sm-12 ">
+  <div class="col-lg-4 col-md-4 col-sm-12 " id="section7">
     Conclusion
   </div>
   <div class="col-lg-5 col-md-5 col-sm-12 ">
