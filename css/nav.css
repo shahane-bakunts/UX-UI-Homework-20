@@ -1,4 +1,6 @@
-/* nav.html */
+html{
+  font-family:'Merriweather', serif;
+  }
 .my-logo{
     height:50px;
 }
@@ -8,7 +10,6 @@
 
   .navbar-nav a{
     color:#271458 !important;
-    /* font-size: 20px; */
   }
   .navbar-nav a:hover{
     color: #25cdc8!important;
