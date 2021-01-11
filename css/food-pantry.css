@@ -11,7 +11,7 @@ font-family: 'Roboto', sans-serif;
     /* box-shadow:20px #639539; */
 }
 .shadow1{
-    box-shadow: 0 .1rem 0.5rem #939792;!important;
+    box-shadow: 0 .1rem 0.5rem #939792!important;
 }
 .row{
     padding:25px 0px 25px 0;
@@ -45,6 +45,13 @@ align-content: center;
 }
 .side-menu-list ul{
     list-style: none;
+}
+.side-menu-list a{
+    text-decoration: none!important;
+    color:white;
+}
+.side-menu-list a:hover{
+    color: #639539;
 }
 .footer{
     background-color:#11200D!important;

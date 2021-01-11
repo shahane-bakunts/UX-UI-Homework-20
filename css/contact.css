@@ -1,14 +1,40 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    }
 .contact{
-    padding:50px 100px!important;
+    margin:50px 200px!important;
 }
+.contact-details{
+    margin-top:250px;
+}
+.container-fluid{
+padding: 0px!important;
+}
+
 .contact-backgrount-white{
     width:100%!important;
 }
+.form h1{
+    padding-bottom:32px;
+  
+}
+#successMessage{
+    color:#271458;
+}
+
+input, textarea{
+   width:300px;
+}
 .title {
-    background-color: #271458;
+    background-color:#271458!important;
+    background-image: url(../images/title-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
     height: 200px;
     width: 100%;
     color: white;
+    }
+    .title h1{  font-family: 'Merriweather', serif;
     }
     .title h1,
     .title p {
@@ -16,6 +42,17 @@
     text-align: center;
     padding-top: 30px;
     }
-    #contact{
-        margin-top:30px;
-}
+@media only screen and (max-width: 900px) {
+    .title {
+      background-image: none;
+      background-color:#271458!important;
+    }
+    .contact-details{
+        margin-top:100px;
+    }
+    .contact{
+        margin-left: 25px!important;
+        margin-right:25px!important;
+        text-align: center;
+    }
+  }

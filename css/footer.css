@@ -13,18 +13,23 @@
   }
 .footer{
     background-color:#271458;
-    padding-bottom:20px;
+    background-image: url(../images/footer-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+  
   }
   #footer {
     background-color: #271458;
     display: flex;
-    height: 100px;
+    
   }
   .footer-copyright a{
     color:#25cdc8;
   }
   .copy-logo-line a{
   color: #25cdc8!important;
+  
   }
   .social-icons-footer{
     display: inline-block !important;
@@ -38,4 +43,12 @@
   }
   .page-footer{
     margin-top:70px;
+  }
+
+  @media only screen and (max-width: 900px) {
+  .footer{
+    background-color:#271458;
+    background-image: none;
+
+  }
   }
