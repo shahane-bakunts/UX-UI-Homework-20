@@ -34,5 +34,12 @@ $(document).ready(function(){
       console.log($('#fname'));
     });
   });
+//   $('#section1').click(function(e){
+   
+//     $('#section1').get('.hidden');
+//     console.log($('#section1'));
+//   });
+// });
+
 
   //$(".content) .delay(300).fadeIn(800).animate({top: "-50px},);

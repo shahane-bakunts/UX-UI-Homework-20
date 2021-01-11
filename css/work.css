@@ -1,16 +1,24 @@
+html, body{
+    font-family: 'Source Sans Pro', sans-serif!important;
+    }
 .work{
     padding-left:200px !important;
     padding-right:200px !important;
     padding-top: 50px;
     padding-bottom: 50px;
     }
-    
+  
     .title {
-    background-color: #271458;
-    height: 200px;
-    width: 100%;
-    color: white;
-    }
+        background-color:#271458!important;
+        width: 100%;
+        background-image: url(../images/title-bg.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 200px;
+        color: white;
+        }
+        .title h1{  font-family: 'Merriweather', serif;
+        }
     .title h1,
     .title p {
     color: white;
@@ -45,5 +53,11 @@ color:white!important;
     }
     .reverse div:nth-of-type(1){
 order:2;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .title {
+      background-image: none;
+      background-color:#271458!important;
     }
 }

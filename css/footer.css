@@ -1,4 +1,6 @@
-/* footer.html */
+html, body{
+  font-family: 'Source Sans Pro', sans-serif!important;
+  }
 .footer-logo{
     height:30px;
 }
@@ -46,7 +48,7 @@
     margin-top:70px;
   }
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 600px) {
   .footer{
     background-color:#271458;
     background-image: none;

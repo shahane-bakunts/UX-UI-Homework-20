@@ -1,4 +1,6 @@
-/* home.html */
+html, body{
+  font-family: 'Source Sans Pro', sans-serif!important;
+  }
 .hero-background{
     height:400px;
 }
@@ -14,7 +16,10 @@ height:500px;
     height: 45px;
 }
 #d400px {
-    width: 400px;
+width: 626px;
+font-weight: lighter;
+color: #271458;
+font-size: 24px;
     /* padding-top: 20px; */
   }
   #myname {
@@ -25,8 +30,8 @@ height:500px;
 
   }
   .myposition{
-    font-weight: bolder;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 36px;
     color: #271458;
   
   }
@@ -39,14 +44,28 @@ height:500px;
   h1 {
     font-size: 40px;
   }
-    
+  @media only screen and (max-width:1200px) {
+    .social-icons{
+      display: none;
+  }
+  #d400px {
+    width: 700px;
+    font-size: 20px;
+  }
+   
+  }
+
 @media only screen and (max-width: 600px) {
     .navbar{
         padding:10px 50px;
     }
-    .social-icons{
-        display: none;
+    #d400px {
+      width: 400px;
     }
+    .hero-text{
+      margin: 0px 50px;
+    }
+  
     .row{
         display:grid;
         repeat(2, 1fr);

@@ -1,18 +1,21 @@
-html{
-    font-family: 'Roboto', sans-serif;
+html, body{
+    font-family: 'Source Sans Pro', sans-serif!important;
     }
-.contact{
-    margin:50px 200px!important;
-}
-.contact-details{
+
+.align-left{
     margin-top:250px;
 }
 .container-fluid{
 padding: 0px!important;
+ text-align: center;
+}
+.row{
+    text-align: center;
 }
 
 .contact-backgrount-white{
     width:100%!important;
+    margin:50px 100px!important;
 }
 .form h1{
     padding-bottom:32px;
@@ -43,16 +46,16 @@ input, textarea{
     padding-top: 30px;
     }
 @media only screen and (max-width: 900px) {
+    .align-left{
+        margin:50px 0 0 50px;
+    }
+    .contact-backgrount-white{
+        margin:50px 50px!important;
+    }
+  }
+  @media only screen and (max-width: 600px) {
     .title {
       background-image: none;
       background-color:#271458!important;
     }
-    .contact-details{
-        margin-top:100px;
-    }
-    .contact{
-        margin-left: 25px!important;
-        margin-right:25px!important;
-        text-align: center;
-    }
-  }
+}
