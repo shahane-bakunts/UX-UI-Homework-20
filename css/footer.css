@@ -33,6 +33,7 @@
   }
   .social-icons-footer{
     display: inline-block !important;
+    margin-bottom: 70px;
   }
   .white{
     color: white;
