@@ -46,14 +46,22 @@ font-family:'Merriweather', serif;
     color: #639539;
 }
 .case-study img{
-width: 100%;
-align-content: center;
-padding-top: 100px;
+width:100%;
+text-align: center;
+padding-top:15px;
+padding-bottom:15px;
+}
+.mockup{
+    margin-bottom: -50px;
+
+}
+.mockup img{
+ width:80%;
 }
 .side-menu{
     background: #11200D;
     color:white;
-    padding-top: 20%;
+    padding-top: 15%;
     font-size: 24px;
     text-transform: uppercase; 
     width: 100%;
@@ -77,14 +85,21 @@ padding-top: 100px;
     background-position: center;
     
     z-index: 10000!important;
-  }
-  .footer-logo{
-      display: none;
-  }
-  .hidden{
-      display:none;
-  }
-  @media only screen and (max-width: 900px) {
+}
+.footer-logo{
+display: none;
+}
+.hidden{
+display:none;
+}
+h1{
+    display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4s; /* don't forget to set a duration! */
+}
+@media only screen and (max-width: 900px) {
     .case-study {
         padding: 8px 10px 8px 10px;
     }
