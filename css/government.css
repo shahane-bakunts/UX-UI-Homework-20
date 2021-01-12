@@ -1,0 +1,107 @@
+html{
+    font-family: 'Source Sans Pro', sans-serif;
+    }
+    .container-fluid{
+        padding:0px!important;
+    }
+    .case-study {
+        padding: 24px 100px 24px 100px;
+        
+    }
+    #section1 img{
+        padding-top: 200px;
+    }
+    .overview p{
+        font-size: 16px!important;
+        color: #11200D;
+        font-weight: lighter;
+        padding-top:32px;
+    }
+    .case-study div:nth-child(1) {
+        font-size: 24px;
+        font-weight: bold;
+        color: #0057A3;
+    }
+    .case-study img{
+    width: 100%;
+    align-content: center;
+    }
+.gov-fixed{
+    z-index: 1000;
+}
+.fa-chevron-circle-left{
+    padding-top: 25px;
+    font-size: 36px;
+    color:#FBC80D;
+
+}
+.gov-title h1{
+font-size: 36px;
+color: #0057A3;
+padding-top: 20px;
+font-family:'Merriweather', serif;
+}
+.white1{
+    background-color: white;
+    color:  #11200D;
+    /* box-shadow:20px #639539; */
+}
+.shadow1{
+    box-shadow: 0 .1rem 0.5rem #939792!important;
+}
+/* .row{
+    padding:25px 0px 25px 0;
+} */
+h1{
+    height: 100px;
+    color:#0057A3;
+}
+.side-menu{
+    background: #11200D;
+    color:blue;
+    padding-top: 20%;
+    font-size: 24px;
+    text-transform: uppercase; 
+    width: 100%;
+    height: 100%;
+
+}
+.side-menu-list ul{
+    list-style: none;
+    padding-right:50px;
+}
+.nav-stacked li{
+    list-style: none;
+    padding-right:50px!important;
+}
+.side-menu-list a{
+    text-decoration: none!important;
+    color:white;
+}
+.side-menu-list a:hover{
+    color: #0057A3
+} 
+
+.footer{
+    background-color:#11200D!important;
+    background-image: url(../images/Gov-footer-bg.svg)!important;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .footer-logo{
+      display: none;
+  }
+  .hidden{
+      display:none;
+  }
+  @media only screen and (max-width: 600px) {
+    .case-study {
+        padding: 32px 50px 32px 50px;
+    }
+    .fa-chevron-circle-left{
+        font-size: 10px;
+    }
+    .gov-title h1{
+    font-size: 16px;
+}
+}
