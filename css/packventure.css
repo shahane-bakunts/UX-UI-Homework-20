@@ -1,67 +1,64 @@
-html{
-    font-family: 'Source Sans Pro', sans-serif;
-    }
-.pack-fixed{
-    z-index: 1000;
+html {
+font-family: "Source Sans Pro", sans-serif;
 }
-.fa-chevron-circle-left{
-    padding-top: 25px;
-    font-size: 36px;
-    color:#D8EB66;
-
+.pack-fixed {
+z-index: 1000;
 }
-.pack-title h1{
+.fa-chevron-circle-left {
+padding-top: 25px;
 font-size: 36px;
-color: #136F63;
+color: #d8eb66;
+}
+.pack-title h1 {
+font-size: 36px;
+color: #136f63;
 padding-top: 20px;
-font-family:'Merriweather', serif;
+font-family: "Merriweather", serif;
 }
-.white1{
-    background-color: white;
-    color:  #11200D;
-    /* box-shadow:20px #639539; */
+.white1 {
+background-color: white;
+color: #11200d;
+/* box-shadow:20px #639539; */
 }
-.shadow1{
-    box-shadow: 0 .1rem 0.5rem #939792!important;
+.shadow1 {
+box-shadow: 0 0.1rem 0.5rem #939792 !important;
 }
-.row{
-    padding:25px 0px 25px 0;
+.row {
+padding: 25px 0px 25px 0;
 }
-h1{
-    height: 100px;
-    color: #136F63;
+h1 {
+height: 100px;
+color: #136f63;
 }
 
-
-.footer{
-    background-color:#11200D!important;
-    background-image: url(../images/Pack-footer-bg.svg)!important;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-  }
-  .footer-logo{
-      display: none;
-  }
-  .hidden{
-      display:none;
-  }
-  .spaceholder{
-    padding-top:200px;
-    font-size: 56px;
-    margin-left: 40%;
-    color:rgb(77, 3, 77);
-    display: inline-block;
-    margin-bottom:10%;
-
-  animation: bounce; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 6s; /* don't forget to set a duration! */
+.footer {
+background-color: #11200d !important;
+background-image: url(../images/Pack-footer-bg.svg) !important;
+background-repeat: no-repeat;
+background-position: center;
 }
-.spaceholder img{
-    height: 300px;
+.footer-logo {
+display: none;
 }
-  @media only screen and (max-width: 600px) {
-    .case-study {
-        padding: 32px 50px 32px 50px;
-    }
+.hidden {
+display: none;
+}
+.spaceholder {
+padding-top: 200px;
+font-size: 56px;
+margin-left: 40%;
+color: rgb(77, 3, 77);
+display: inline-block;
+margin-bottom: 10%;
+
+animation: bounce; /* referring directly to the animation's @keyframe declaration */
+animation-duration: 6s; /* don't forget to set a duration! */
+}
+.spaceholder img {
+height: 300px;
+}
+@media only screen and (max-width: 600px) {
+.case-study {
+    padding: 32px 50px 32px 50px;
+}
 }
