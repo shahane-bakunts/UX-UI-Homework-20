@@ -29,17 +29,6 @@ $(document).ready(function(){
     $('#testa').click(function(e){
       e.preventDefault();
       $('#testa').text('Clicked');
-      //$('#fname').val('Hello');
-      //$('#email').val();
       console.log($('#fname'));
     });
   });
-//   $('#section1').click(function(e){
-   
-//     $('#section1').get('.hidden');
-//     console.log($('#section1'));
-//   });
-// });
-
-
-  //$(".content) .delay(300).fadeIn(800).animate({top: "-50px},);

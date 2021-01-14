@@ -108,3 +108,8 @@ h1{
         display:none;
     }
 }
+
+
+#navigation {
+    display: none;
+}

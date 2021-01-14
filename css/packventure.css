@@ -62,3 +62,7 @@ height: 300px;
     padding: 32px 50px 32px 50px;
 }
 }
+
+#navigation {
+    display: none;
+}
