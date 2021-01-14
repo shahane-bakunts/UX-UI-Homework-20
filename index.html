@@ -47,6 +47,7 @@
       
         $("#hero-section").load("/path/" + path + '.html', function(){
           setTimeout(function() {AOS.init();}, 100);
+          $.getScript("/js/index.js");
         });
 
         $("#footer-nav").load("/path/footer.html");

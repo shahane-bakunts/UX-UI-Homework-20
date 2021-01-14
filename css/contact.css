@@ -23,6 +23,11 @@ padding: 0px!important;
 }
 #successMessage{
     color:#271458;
+    display: inline-block;
+  margin-bottom: 20px;
+    animation: bounce; 
+    animation-duration: 6s; 
+   
 }
 
 input, textarea{
