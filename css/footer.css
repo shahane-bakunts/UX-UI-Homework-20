@@ -5,10 +5,11 @@
     overflow: hidden;
     padding-top: 20px;
     display: inline-block;
+    width:20%;
   }
   .social-icons-footer li img {
     height: 40px;
-    padding-right: 30px;
+    padding-right: 3%;
   }
 .footer{
     background-color:#271458;

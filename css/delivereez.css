@@ -49,14 +49,5 @@ margin-bottom: 10%;
 animation: bounce; 
 animation-duration: 6s; 
 }
-.spaceholder img {
-height: 300px;
-}
-@media only screen and (max-width: 600px) {
-.case-study {
-padding: 32px 50px 32px 50px;
-}
-}
-#navigation {
-    display: none;
-}
+
+
