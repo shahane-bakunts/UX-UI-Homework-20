@@ -44,7 +44,6 @@
         else if (!pages.includes(path)) {
           path = 'error';
         }
-        path = 'work'
       
         $("#hero-section").load("/path/" + path + '.html', function(){
           setTimeout(function() {AOS.init();}, 100);
