@@ -12,7 +12,6 @@
   .navbar-nav a:hover{
     color: #25cdc8!important;
   }
-
   button, input[type=submit] {
     align-items: center;
   }
@@ -38,9 +37,7 @@
     border-radius: 10px;
     box-shadow: (0 0 0 3px #271458);
   }
-
   @media only screen and (max-width: 900px) {
-
     .navbar{
         margin:20px 50px 50px 50px;
       }

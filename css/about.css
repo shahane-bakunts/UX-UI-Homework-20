@@ -1,31 +1,27 @@
-html, body{
-    font-family: 'Source Sans Pro', sans-serif!important;
-    }
-    .container-fluid{
-        padding: 0px!important;
-        }
+.container-fluid {
+padding: 0px !important;
+}
 .about {
 padding: 50px 200px !important;
 }
-
 .title {
-    background-color:#271458!important;
-    background-image: url(../images/title-bg.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 200px;
-    width: 100%;
-    color: white;
-    }
-    .title h1{  font-family: 'Merriweather', serif;
-    }
+background-color: #271458 !important;
+background-image: url(../images/title-bg.svg);
+background-repeat: no-repeat;
+background-position: center;
+height: 200px;
+width: 100%;
+color: white;
+}
+.title h1 {
+font-family: "Merriweather", serif;
+}
 .title h1,
 .title p {
 color: white;
 text-align: center;
 padding-top: 30px;
 }
-
 .ui-element img {
 height: 118.8px;
 margin: -30px;
@@ -34,7 +30,7 @@ margin: -30px;
 height: 100px !important;
 margin: 30px 0 30px 0 !important;
 }
-h3{
+h3 {
 padding-bottom: 32px;
 }
 .hobby ul {
@@ -48,35 +44,30 @@ display: inline-block;
 font-style: italic;
 font-weight: bold;
 color: #271458;
-/* padding-left: 5px;
-padding-right: 5px; */
 }
 .hobby ul :nth-child(odd) {
-    color: #25cdc8;
-  }
-  
+color: #25cdc8;
+}
+
 .hobby {
 padding-left: 10%;
 padding-top: 10%;
-
 }
-
 @media only screen and (max-width: 1200px) {
-  
 .about {
-    padding: 50px 50px !important;
-    align-items: center;
+padding: 50px 50px !important;
+align-items: center;
 }
 .work.row div {
-    padding-top: 50px;
+padding-top: 50px;
 }
 .hobby {
-    padding-left: 0%;
+padding-left: 0%;
 }
 }
 @media only screen and (max-width: 600px) {
-    .title {
-      background-image: none;
-      background-color:#271458!important;
-    }
+.title {
+background-image: none;
+background-color: #271458 !important;
+}
 }

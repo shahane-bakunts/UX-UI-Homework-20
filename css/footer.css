@@ -1,6 +1,3 @@
-html, body{
-  font-family: 'Source Sans Pro', sans-serif!important;
-  }
 .footer-logo{
     height:30px;
 }
@@ -19,19 +16,16 @@ html, body{
     background-repeat: no-repeat;
     background-position: center;
     height: 200px;
-  
   }
   #footer {
     background-color: #271458;
     display: flex;
-    
   }
   .footer-copyright a{
     color:#25cdc8;
   }
   .copy-logo-line a{
   color: #25cdc8!important;
-  
   }
   .social-icons-footer{
     display: inline-block !important;
@@ -47,7 +41,6 @@ html, body{
   .page-footer{
     margin-top:70px;
   }
-
   @media only screen and (max-width: 600px) {
   .footer{
     background-color:#271458;

@@ -1,66 +1,60 @@
-html, body{
-    font-family: 'Source Sans Pro', sans-serif!important;
-    }
-
-.align-left{
-    margin-top:250px;
+.align-left {
+margin-top: 250px;
 }
-.container-fluid{
-padding: 0px!important;
- text-align: center;
+.container-fluid {
+padding: 0px !important;
+text-align: center;
 }
-.row{
-    text-align: center;
+.row {
+text-align: center;
 }
-
-.contact-backgrount-white{
-    width:100%!important;
-    margin:50px 100px!important;
+.contact-backgrount-white {
+width: 100% !important;
+margin: 50px 100px !important;
 }
-.form h1{
-    padding-bottom:32px;
-  
+.form h1 {
+padding-bottom: 32px;
 }
-#successMessage{
-    color:#271458;
-    display: inline-block;
-  margin-bottom: 20px;
-    animation: bounce; 
-    animation-duration: 6s; 
-   
+#successMessage {
+color: #271458;
+display: inline-block;
+margin-bottom: 20px;
+animation: bounce;
+animation-duration: 6s;
 }
-
-input, textarea{
-   width:300px;
+input,
+textarea {
+width: 300px;
 }
 .title {
-    background-color:#271458!important;
-    background-image: url(../images/title-bg.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 200px;
-    width: 100%;
-    color: white;
-    }
-    .title h1{  font-family: 'Merriweather', serif;
-    }
-    .title h1,
-    .title p {
-    color: white;
-    text-align: center;
-    padding-top: 30px;
-    }
+background-color: #271458 !important;
+background-image: url(../images/title-bg.svg);
+background-repeat: no-repeat;
+background-position: center;
+height: 200px;
+width: 100%;
+color: white;
+}
+.title h1 {
+font-family: "Merriweather", serif;
+}
+.title h1,
+.title p {
+color: white;
+text-align: center;
+padding-top: 30px;
+}
 @media only screen and (max-width: 900px) {
-    .align-left{
-        margin:50px 0 0 50px;
-    }
-    .contact-backgrount-white{
-        margin:50px 50px!important;
-    }
-  }
-  @media only screen and (max-width: 600px) {
-    .title {
-      background-image: none;
-      background-color:#271458!important;
-    }
+.align-left {
+margin: 50px 0 0 50px;
+}
+.contact-backgrount-white {
+margin: 50px 50px !important;
+}
+}
+@media only screen and (max-width: 600px) {
+.title {
+background-image: none;
+background-color: #271458 !important;
+}
 }

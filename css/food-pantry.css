@@ -1,115 +1,104 @@
-html{
-    font-family: 'Source Sans Pro', sans-serif;
-    }
-.fp-fixed{
-    z-index: 1000;
-}
 
-.white1{
-    background-color: white;
-    color:  #11200D;
-    /* box-shadow:20px #639539; */
+.fp-fixed {
+z-index: 1000;
 }
-.shadow1{
-    box-shadow: 0 .1rem 0.5rem #939792!important;
+.white1 {
+background-color: white;
+color: #11200d;
 }
-.row{
-    padding:25px 0px 25px 0;
+.shadow1 {
+box-shadow: 0 0.1rem 0.5rem #939792 !important;
 }
-.fp-hero img{
+.row {
+padding: 25px 0px 25px 0;
+}
+.fp-hero img {
 margin-top: 60px;
 }
-.fa-chevron-circle-left{
-    padding-top: 25px;
-    font-size: 36px;
-    color:#BF24A6;
-
+.fa-chevron-circle-left {
+padding-top: 25px;
+font-size: 36px;
+color: #bf24a6;
 }
-.fp-title h1{
+.fp-title h1 {
 font-size: 36px;
 color: #639539;
 padding-top: 20px;
-font-family:'Merriweather', serif;
+font-family: "Merriweather", serif;
 }
 .case-study {
-    padding: 32px 0px 32px 100px;
+padding: 32px 0px 32px 100px;
 }
-.overview p{
-    font-size: 16px!important;
-    color: #11200D;
-    font-weight: lighter;
-    padding-top: 32px;
+.overview p {
+font-size: 16px !important;
+color: #11200d;
+font-weight: lighter;
+padding-top: 32px;
 }
 .case-study div:nth-child(1) {
-    font-size: 24px;
-    font-weight: bold;
-    color: #639539;
+font-size: 24px;
+font-weight: bold;
+color: #639539;
 }
-.case-study img{
-width:100%;
+.case-study img {
+width: 100%;
 text-align: center;
-padding-top:15px;
-padding-bottom:15px;
+padding-top: 15px;
+padding-bottom: 15px;
 }
-.mockup{
-    margin-bottom: -50px;
-
+.mockup {
+margin-bottom: -50px;
 }
-.mockup img{
- width:80%;
+.mockup img {
+width: 80%;
 }
-.side-menu{
-    background: #11200D;
-    color:white;
-    padding-top: 15%;
-    font-size: 24px;
-    text-transform: uppercase; 
-    width: 100%;
-    height: 100%;
-    margin-right:0px;
+.side-menu {
+background: #11200d;
+color: white;
+padding-top: 15%;
+font-size: 24px;
+text-transform: uppercase;
+width: 100%;
+height: 100%;
+margin-right: 0px;
 }
-.side-menu-list ul{
-    list-style: none;
+.side-menu-list ul {
+list-style: none;
 }
-.side-menu-list a{
-    text-decoration: none!important;
-    color:white;
+.side-menu-list a {
+text-decoration: none !important;
+color: white;
 }
-.side-menu-list a:hover{
-    color: #639539;
+.side-menu-list a:hover {
+color: #639539;
 }
-.footer{
-    background-color:#11200D!important;
-    background-image: url(../images/fp-footer-bg.svg)!important;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    z-index: 10000!important;
+.footer {
+background-color: #11200d !important;
+background-image: url(../images/fp-footer-bg.svg) !important;
+background-repeat: no-repeat;
+background-position: center;
+z-index: 10000 !important;
 }
-.footer-logo{
+.footer-logo {
 display: none;
 }
-.hidden{
-display:none;
+.hidden {
+display: none;
 }
-h1{
-    display: inline-block;
-  margin: 0 0.5rem;
-
-  animation: bounce; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 4s; /* don't forget to set a duration! */
+h1 {
+display: inline-block;
+margin: 0 0.5rem;
+animation: bounce;
+animation-duration: 6s;
 }
-
 @media only screen and (max-width: 900px) {
-    .case-study {
-        padding: 8px 10px 8px 10px;
-    }
-    .side-menu{
-        display:none;
-    }
+.case-study {
+padding: 8px 10px 8px 10px;
 }
-
-
+.side-menu {
+display: none;
+}
+}
 #navigation {
-    display: none;
+display: none;
 }

@@ -1,13 +1,9 @@
-html, body{
-    font-family: 'Source Sans Pro', sans-serif!important;
-    }
 .work{
     padding-left:200px !important;
     padding-right:200px !important;
     padding-top: 50px;
     padding-bottom: 50px;
     }
-  
     .title {
         background-color:#271458!important;
         width: 100%;
@@ -63,7 +59,7 @@ h4{
 }
 @media only screen and (max-width: 600px) {
     .title {
-      background-image: none;
-      background-color:#271458!important;
-    }
+        background-image: none;
+        background-color:#271458!important;
+        }
 }

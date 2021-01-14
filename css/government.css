@@ -42,14 +42,11 @@ font-family: "Merriweather", serif;
 .white1 {
 background-color: white;
 color: #11200d;
-/* box-shadow:20px #639539; */
+box-shadow:20px #639539;
 }
 .shadow1 {
 box-shadow: 0 0.1rem 0.5rem #939792 !important;
 }
-/* .row{
-    padding:25px 0px 25px 0;
-} */
 h1 {
 height: 100px;
 color: #0057a3;
@@ -78,7 +75,6 @@ color: white;
 .side-menu-list a:hover {
 color: #fbc80d;
 }
-
 .footer {
 background-color: #11200d !important;
 background-image: url(../images/gov-footer-bg.svg) !important;
@@ -102,7 +98,6 @@ display: none;
     font-size: 16px;
 }
 }
-
 #navigation {
     display: none;
 }
