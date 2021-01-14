@@ -1,0 +1,29 @@
+.row{
+    position: relative;  
+    top: 0;
+    left: 0;
+    height:800px;
+}
+.error-m{
+position: absolute;
+font-size: 36px;
+color: blueviolet;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.error-img{
+text-align: center;
+position: relative;
+top: 0;
+left: 0;
+
+}
+.error-eyes{
+    position: absolute;
+    top: 285px;
+    left: 480px;
+    animation: bounce;
+animation-duration: 6s;
+    
+}
