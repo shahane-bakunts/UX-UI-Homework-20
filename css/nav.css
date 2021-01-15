@@ -1,4 +1,6 @@
-
+#navigation {
+  display: flex;
+}
 .my-logo{
     height:50px;
 }

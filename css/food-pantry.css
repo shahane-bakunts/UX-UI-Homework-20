@@ -40,17 +40,15 @@ font-size: 24px;
 font-weight: bold;
 color: #639539;
 }
-.case-study img {
+.case-study img, .mockup {
 width: 100%;
 text-align: center;
 padding-top: 15px;
 padding-bottom: 15px;
 }
 .mockup {
-margin-bottom: -50px;
-}
-.mockup img {
-width: 80%;
+    width: 30%;
+    margin-left: -50px;
 }
 .side-menu {
 background: #11200d;
@@ -97,6 +95,11 @@ padding: 8px 10px 8px 10px;
 }
 .side-menu {
 display: none;
+}
+.mockup {
+    width: 50%;
+    margin-left:25%;
+    text-align: center;
 }
 }
 

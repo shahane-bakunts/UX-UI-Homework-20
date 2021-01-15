@@ -1,10 +1,7 @@
-html, body{
-  font-family: 'Source Sans Pro', sans-serif!important;
-  }
+
 .hero-background{
     height:400px;
 }
-
 .hero-text img{
 height:500px;
 }
@@ -20,7 +17,6 @@ width: 626px;
 font-weight: lighter;
 color: #271458;
 font-size: 24px;
-padding-bottom: 30px;
   }
   #myname {
     font-family: 'Dancing Script', cursive;
@@ -49,23 +45,20 @@ padding-bottom: 30px;
       display: none;
   }
   #d400px {
-    width: 700px;
+    width: 500px;
     font-size: 20px;
   }
-
   }
-
 @media only screen and (max-width: 600px) {
     .navbar{
         padding:10px 50px;
     }
     #d400px {
-      width: 320px;
+      width: 90%;
     }
     .hero-text{
-      margin: 0px 50px;
+      margin: 0px 100px;
     }
-  
     .row{
         display:grid;
         repeat(2, 1fr);
@@ -75,5 +68,14 @@ order:2;
     }
     .row div:nth-of-type(2){
         order:1;
+            }
+            #myname {
+              font-size: 45px;
+            }
+            .hero-text{
+              margin: 0px 25px;
+            }
+            .myposition{
+              font-size: 24px;
             }
 }
