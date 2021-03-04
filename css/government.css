@@ -84,6 +84,16 @@ display: none;
 .hidden {
 display: none;
 }
+.spaceholder {
+    text-align: center;
+padding-top: 200px;
+font-size: 56px;
+color: rgb(77, 3, 77);
+display: inline-block;
+margin-bottom: 10%;
+animation: bounce; 
+animation-duration: 6s; 
+}
 @media only screen and (max-width: 600px) {
 
 .fa-chevron-circle-left {
