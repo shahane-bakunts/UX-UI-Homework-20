@@ -1,4 +1,7 @@
-
+.container-fluid {
+  padding: 0px !important;
+  }
+  
 .hero-background{
     height:400px;
 }
