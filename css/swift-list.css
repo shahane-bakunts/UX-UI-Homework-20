@@ -1,0 +1,106 @@
+
+.fp-fixed {
+    z-index: 1000;
+    }
+    .white1 {
+    background-color: white;
+    color: #11200d;
+    }
+    .shadow1 {
+    box-shadow: 0 0.1rem 0.5rem #939792 !important;
+    }
+    .row {
+    padding: 25px 0px 25px 0;
+    }
+    .fp-hero img {
+    margin-top: 60px;
+    }
+    .fa-chevron-circle-left {
+    padding-top: 25px;
+    font-size: 36px;
+    color:  #FFBD3E;
+    }
+    .fp-title h1 {
+    font-size: 36px;
+    color:#725ABD;;
+    padding-top: 20px;
+    font-family: "Merriweather", serif;
+    }
+    .case-study {
+    padding: 32px 0px 32px 100px;
+    }
+    .overview p {
+    font-size: 16px !important;
+    color: #11200d;
+    font-weight: lighter;
+    padding-top: 32px;
+    }
+    .case-study div:nth-child(1) {
+    font-size: 24px;
+    font-weight: bold;
+    color:  #725ABD;
+    }
+    .case-study img, .mockup {
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+    .mockup {
+        width: 30%;
+        margin-left: -50px;
+    }
+    .side-menu {
+    background: #11200d;
+    color: white;
+    padding-top: 15%;
+    font-size: 24px;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+    margin-right: 0px;
+    }
+    .side-menu-list ul {
+    list-style: none;
+    }
+    .side-menu-list a {
+    text-decoration: none !important;
+    color: white;
+    }
+    .side-menu-list a:hover {
+    color:  #FFBD3E;
+    }
+    .footer {
+    background-color: #11200d !important;
+    background-image: url(../images/SL-footer-bg.svg) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 10000 !important;
+    }
+    .footer-logo {
+    display: none;
+    }
+    .hidden {
+    display: none;
+    }
+    h1 {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce;
+    animation-duration: 6s;
+    }
+    @media only screen and (max-width: 900px) {
+    .case-study {
+    padding: 8px 10px 8px 10px;
+    }
+    .side-menu {
+    display: none;
+    }
+    .mockup {
+        width: 50%;
+        margin-left:25%;
+        text-align: center;
+    }
+    }
+    
+    

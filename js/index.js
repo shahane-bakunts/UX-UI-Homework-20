@@ -10,6 +10,8 @@ $(function () {
     "home",
     "packventure",
     "delivereez",
+    "swift-list",
+
   ];
   var urlParams = new URLSearchParams(window.location.search);
   var path = urlParams.get("path");
